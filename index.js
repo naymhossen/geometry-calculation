@@ -97,6 +97,8 @@ function ellipseCalculation(){
     const ellipseLast = getInputValue('ellipse-b');
     const ellipseArea = 3.14 * (ellipseFirst * ellipseLast);
     setAreaElementTex('ellipse-area', ellipseArea);
+
+    addToCalculationEntry('ellipse', ellipseArea);
 }
 
 
